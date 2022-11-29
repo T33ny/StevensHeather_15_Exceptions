@@ -20,7 +20,11 @@ char character(char start, int offset);	//function prototype
 
 int main()
 {
-
+	cout << character('a', 1) << endl;	//should return b
+	cout << character('a', -1) << endl;	//return invalidRangeException
+	cout << character('Z', -1) << endl;	//return Y
+	cout << character('?', 5) << endl;	//invalidCharacterException
+	cout << character('A', 32) << endl;	//exception
 
 
 	system("pause");
