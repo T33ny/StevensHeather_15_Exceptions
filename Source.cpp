@@ -34,7 +34,7 @@ int main()
 char character(char s, int off)
 {
 	int ascii;	//holds asci value of char
-	int target;	//holds value of offset char 
+	char target;	//holds value of offset char 
 
 	ascii = int(s);	//calls char ascii value
 	target = ascii + off;	//calulates the ascii value plus the offset 
